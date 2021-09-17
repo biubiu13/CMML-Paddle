@@ -93,7 +93,7 @@ python Deep_attention_strong_week_train.py
 | 支持硬件 | CPU、GPU                                                     |
 | 下载链接 | [预训练模型](https://pan.baidu.com/s/1R_LICTieJh_ifXZ6Mwe2lA) 提取码：kmav |
 | 下载链接 | [训练日志](https://pan.baidu.com/s/1ukM78NSefmggaAvtfJc1mQ) 提取码：h4ym |
-| 下载链接 | [数据集及其划分](https://pan.baidu.com/s/14zMjSsUt2Ex_9uij9b0IbQ) 提取码：8ddv |
+
 
 
 
