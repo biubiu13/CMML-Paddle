@@ -91,7 +91,7 @@ python Deep_attention_strong_week_train.py
 | 框架版本 | Paddle 2.1.2                                                 |
 | 应用场景 | 多模态分类                                                   |
 | 支持硬件 | CPU、GPU                                                     |
-| 下载链接 | [预训练模型](https://pan.baidu.com/s/1u1igOvxYPDOMrLpxlST0gA) 提取码：3hv3 |
+| 下载链接 | [预训练模型](https://pan.baidu.com/s/1bwLnXVtobiPiNSBmFkk-ig) 提取码：hks8 |
 | 下载链接 | [训练日志](https://pan.baidu.com/s/1_6--d6tT4bJROpB0fNuc5Q) 提取码：cmfg |
 
 
