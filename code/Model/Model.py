@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-# from torch import nn
-# import torch
-# import torchvision.models as Models
-
 import paddle
 from paddle import nn
 
@@ -47,7 +43,7 @@ class AttentionNet(paddle.nn.Layer):
 class ImgNet(paddle.nn.Layer):
     def __init__(self):
         super(ImgNet, self).__init__()
-        self.feature = paddle.vision.models.resnet34(pretrained=True)
+        self.feature = paddle.vision.models.resnet18(pretrained=True)
         self.feature = paddle.nn.Sequential(*list(self.feature.children())[:-1])
         self.fc1 = paddle.nn.Sequential(
             paddle.nn.Linear(512, 128),
@@ -66,7 +62,7 @@ def make_layers(cfg):
     input_dim = cfg[0]
     for i in range(1, n):
         output_dim = cfg[i]
-        layers += [paddle.nn.Linear(input_dim, output_dim)]
+        layers += [paddle.nn.Linear(input_dim, output_dim), paddle.nn.ReLU()]
         input_dim = output_dim
     return paddle.nn.Sequential(*layers)
 
