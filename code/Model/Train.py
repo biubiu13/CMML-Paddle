@@ -371,16 +371,13 @@ def train(Textfeaturemodel, Imgpredictmodel, Textpredictmodel, Imgmodel, Attenti
                                                             cuda=cuda)
 
     logger.info('Test: \n'
-                'acc1={:.5f}, acc2={:.5f}, acc3={:.5f}\n'
-                'coverage1={:.5f}, coverage2={:.5f}, coverage3={:.5f}\n'
-                'example_auc1={:.5f}, example_auc2={:.5f}, example_auc3={:.5f}\n'
-                'macro_auc1={:.5f}, macro_auc2={:.5f}, macro_auc3={:.5f}\n'
-                'micro_auc1={:.5f}, micro_auc2={:.5f}, micro_auc3={:.5f}\n'
-                'ranking_loss1={:.5f}, ranking_loss2={:.5f}, ranking_loss3={:.5f}'
-                .format(acc1, acc2, acc3,
-                        coverage1, coverage2, coverage3, example_auc1, example_auc2, example_auc3,
-                        macro_auc1, macro_auc2, macro_auc3, micro_auc1, micro_auc2, micro_auc3,
-                        ranking_loss1, ranking_loss2, ranking_loss3))
+                'acc1={:.5f}\n'
+                'coverage1={:.5f}\n'
+                'example_auc1={:.5f}\n'
+                'macro_auc1={:.5f}\n'
+                'micro_auc1={:.5f}\n'
+                'ranking_loss1={:.5f}'
+                .format(acc1, coverage1, example_auc1, macro_auc1, micro_auc1, ranking_loss1))
 
     logger.info('finish training!')
 
