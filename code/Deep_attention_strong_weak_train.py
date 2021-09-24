@@ -23,9 +23,9 @@ parser.add_argument('--Textpredictpara', type = str, default = '128, 10')#archit
 parser.add_argument('--Predictpara', type = str, default = '128, 10')#architecture of attention predict network
 parser.add_argument('--Attentionparameter', type = str, default = '128, 1')#architecture of attention network
 parser.add_argument('--img-supervise-epochs', type = int, default = 0)
-parser.add_argument('--text-supervise-epochs', type = int, default = 1)
+parser.add_argument('--text-supervise-epochs', type = int, default = 5)
 parser.add_argument('--epochs', type = int, default = 10)# train epochs
-parser.add_argument('--img-lr-supervise', type = float, default = 0.001)
+parser.add_argument('--img-lr-supervise', type = float, default = 0.0001)
 parser.add_argument('--text-lr-supervise', type = float, default = 0.0001)
 parser.add_argument('--lr-supervise', type = float, default = 0.00003)#train Learning rate
 parser.add_argument('--weight-decay', type = float, default = 0)
