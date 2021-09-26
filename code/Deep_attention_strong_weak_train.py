@@ -9,15 +9,15 @@ import paddle
 parser = ArgumentParser('Strong and weak modality Attention-based Deep learning.')
 parser.add_argument('--use-gpu', type = bool, default = True)
 parser.add_argument('--visible-gpu', type = str, default = '0')
-parser.add_argument('--textfilename', type = str, default = 'data/flickr_text.npy')#Path of text madality feature data
-parser.add_argument('--imgfilenamerecord', type = str, default = 'data/flickr_imgs.pkl')#Path of name list of img madality data
-parser.add_argument('--imgfilename', type = str, default = 'data/mirflickr/')#Path of img madality data
-parser.add_argument('--labelfilename', type = str, default = 'data/flickr_label.npy')#Path of data label
+parser.add_argument('--textfilename', type = str, default = 'data/coco_text.npy')#Path of text madality feature data
+parser.add_argument('--imgfilenamerecord', type = str, default = 'data/coco_imgs.pkl')#Path of name list of img madality data
+parser.add_argument('--imgfilename', type = str, default = 'data/mscoco/')#Path of img madality data
+parser.add_argument('--labelfilename', type = str, default = 'data/coco_label.npy')#Path of data label
 parser.add_argument('--savepath', type = str, default = 'models/')
 parser.add_argument('--textbatchsize', type = int, default = 32)
 parser.add_argument('--imgbatchsize', type = int, default = 32)
 parser.add_argument('--batchsize', type = int, default = 4)#train and test batchsize
-parser.add_argument('--Textfeaturepara', type = str, default = '1386, 128')#architecture of text feature network
+parser.add_argument('--Textfeaturepara', type = str, default = '2912,516 128')#architecture of text feature network
 parser.add_argument('--Imgpredictpara', type = str, default = '128, 10')#architecture of img predict network
 parser.add_argument('--Textpredictpara', type = str, default = '128, 10')#architecture of text predict network
 parser.add_argument('--Predictpara', type = str, default = '128, 10')#architecture of attention predict network
