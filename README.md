@@ -92,7 +92,7 @@ python Deep_attention_strong_week_train.py
 | 应用场景 | 多模态分类                                                   |
 | 支持硬件 | CPU、GPU                                                     |
 | 下载链接 | [预训练模型](https://pan.baidu.com/s/1c4TTg3VkLacMQiJuxHZfjA) 提取码：nsfc |
-| 下载链接 | [训练日志](https://pan.baidu.com/s/1_6--d6tT4bJROpB0fNuc5Q) 提取码：cmfg |
+| 下载链接 | [训练日志](https://pan.baidu.com/s/1ifagsblHLYfUDlFIs58bCgQ) 提取码：2pqa |
 
 
 
