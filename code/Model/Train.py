@@ -179,7 +179,7 @@ def train(Textfeaturemodel, Imgpredictmodel, Textpredictmodel, Imgmodel, Attenti
     train_supervise_loss = []
     batch_count = 0
     loss = 0
-    best_result = 0
+    best_result = 10
 
     for epoch in range(1, supervise_epochs + 1):
         print('train supervise data:', epoch)
@@ -336,9 +336,9 @@ def train(Textfeaturemodel, Imgpredictmodel, Textpredictmodel, Imgmodel, Attenti
             paddle.save(Predictmodel.state_dict(), savepath + 'Predictmodel.pdparams')
             paddle.save(Attentionmodel.state_dict(), savepath + 'Attentionmodel.pdparams')
 
-            if macro_auc1 > best_result:
-                best_result = macro_auc1
-                print("macro_auc : ", macro_auc1)
+            if coverage1 < best_result:
+                best_result = coverage1
+                print("coverage1 : ", coverage1)
                 paddle.save(Textfeaturemodel.state_dict(), savepath + 'Textfeaturemodel-best.pdparams')
                 paddle.save(Imgpredictmodel.state_dict(), savepath + 'Imgpredictmodel-best.pdparams')
                 paddle.save(Textpredictmodel.state_dict(), savepath + 'Textpredictmodel-best.pdparams')
