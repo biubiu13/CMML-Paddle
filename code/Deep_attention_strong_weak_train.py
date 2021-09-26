@@ -17,17 +17,17 @@ parser.add_argument('--savepath', type = str, default = 'models/')
 parser.add_argument('--textbatchsize', type = int, default = 32)
 parser.add_argument('--imgbatchsize', type = int, default = 32)
 parser.add_argument('--batchsize', type = int, default = 4)#train and test batchsize
-parser.add_argument('--Textfeaturepara', type = str, default = '2912,516 128')#architecture of text feature network
-parser.add_argument('--Imgpredictpara', type = str, default = '128, 10')#architecture of img predict network
-parser.add_argument('--Textpredictpara', type = str, default = '128, 10')#architecture of text predict network
-parser.add_argument('--Predictpara', type = str, default = '128, 10')#architecture of attention predict network
-parser.add_argument('--Attentionparameter', type = str, default = '128, 1')#architecture of attention network
+parser.add_argument('--Textfeaturepara', type = str, default = '2912, 256, 128')#architecture of text feature network
+parser.add_argument('--Imgpredictpara', type = str, default = '128, 20')#architecture of img predict network
+parser.add_argument('--Textpredictpara', type = str, default = '128, 20')#architecture of text predict network
+parser.add_argument('--Predictpara', type = str, default = '128, 20')#architecture of attention predict network
+parser.add_argument('--Attentionparameter', type = str, default = '128, 64, 32, 1')#architecture of attention network
 parser.add_argument('--img-supervise-epochs', type = int, default = 0)
-parser.add_argument('--text-supervise-epochs', type = int, default = 5)
-parser.add_argument('--epochs', type = int, default = 10)# train epochs
+parser.add_argument('--text-supervise-epochs', type = int, default = 1)
+parser.add_argument('--epochs', type = int, default = 20)# train epochs
 parser.add_argument('--img-lr-supervise', type = float, default = 0.0001)
 parser.add_argument('--text-lr-supervise', type = float, default = 0.0001)
-parser.add_argument('--lr-supervise', type = float, default = 0.00003)#train Learning rate
+parser.add_argument('--lr-supervise', type = float, default = 0.0001)#train Learning rate
 parser.add_argument('--weight-decay', type = float, default = 0)
 parser.add_argument('--traintestproportion', type = float, default = 0.667)#ratio of train data to test data
 parser.add_argument('--lambda1', type = float, default = 0.01)#ratio of train data to test data
