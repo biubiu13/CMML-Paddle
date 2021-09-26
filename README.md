@@ -8,13 +8,13 @@
 
 ## 二、数据集
 
-本项目数据集使用 FLICKR25K, 数据集划分根据原始论文和主办方规定
+本项目数据集使用 MSCOCO, 数据集划分根据原始论文和主办方规定
 
 具体地，将原始的数据集处理成以下文件：
 
-- 标签文件，如 flickr_label.npy
-- 文本特征文件(使用 BOW 提取特征)，如 flickr_text.npy
-- 图片索引，如 flickr_image.pkl
+- 标签文件，如 COCO_label.npy
+- 文本特征文件(使用 BOW 提取特征)，如 COCO_text.npy
+- 图片索引，如 COCO_image.pkl
 - 图片文件夹，保存图片原始文件
 
 
