@@ -5,7 +5,7 @@
 - 本项目基于 Paddle 框架复现论文 Comprehensive Semi-Supervised Multi-Modal Learning
 - 论文：[Comprehensive Semi-Supervised Multi-Modal Learning | IJCAI](https://www.ijcai.org/proceedings/2019/568)
 - 参考实现：https://github.com/njustkmg/IJCAI19_CMML
-- AI Studio：https://aistudio.baidu.com/aistudio/projectdetail/2423256[https://aistudio.baidu.com/aistudio/projectdetail/2423256]
+- AI Studio：https://aistudio.baidu.com/aistudio/projectdetail/2423256
 
 ## 二、复现精度
 | Coverage | Average Precision | Ranking Loss | Example AUC | Micro AUC | Macro AUC |
