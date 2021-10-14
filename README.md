@@ -6,6 +6,11 @@
 - 论文：[Comprehensive Semi-Supervised Multi-Modal Learning | IJCAI](https://www.ijcai.org/proceedings/2019/568)
 - 参考实现：https://github.com/njustkmg/IJCAI19_CMML
 
+## 二、复现精度
+| Coverage | Average | Precision | Ranking Loss | Example AUC | Micro AUC | Macro AUC |
+| -------- | ------- | --------- | ------------ | ----------- | --------- | --------- |
+| 2.698 | 0.915 | 0.057 | 0.943 | 0.937 | 0.930 |
+
 ## 二、数据集
 
 本项目数据集使用 MSCOCO, 数据集划分根据原始论文和主办方规定
