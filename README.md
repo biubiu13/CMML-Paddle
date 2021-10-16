@@ -1,7 +1,7 @@
 # CMML-Paddle
 
 
-[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](https://github.com/biubiu13/CMML-Paddles) [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
 
 ## 一、简介
 
