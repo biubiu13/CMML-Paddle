@@ -1,7 +1,7 @@
 # CMML-Paddle
 
 
-[![License: Apache License, Version 2.0](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](https://github.com/biubiu13/CMML-Paddles) [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
 
 ## 一、简介
 
