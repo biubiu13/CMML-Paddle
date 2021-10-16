@@ -1,5 +1,8 @@
 # CMML-Paddle
 
+
+[![License: Apache License, Version 2.0](https://img.shields.io/badge/License-MIT-yellow.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 ## 一、简介
 
 - 本项目基于 Paddle 框架复现论文 Comprehensive Semi-Supervised Multi-Modal Learning
